@@ -1,10 +1,6 @@
 from fpdf import FPDF
 from PIL import Image
-from pathlib import Path
-
 import os
-
-import click
 
 pdf = FPDF()
 imagelist = []  # Contains the list of all images to be converted to PDF.
