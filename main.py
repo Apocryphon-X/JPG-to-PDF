@@ -51,7 +51,7 @@ def make_pdf(directory, name, imglist):
 @click.argument("dirpath")
 @click.argument("name")
 def main(dirpath, name):
-    """Merge every '.jpg' file in DIRPATH into a single PDF called NAME."""
+    """Merges all `.jpg` files contained within DIRPATH into a single PDF called NAME."""
     imagelist = get_images(dirpath)
 
     print(f"[✓] Found {len(imagelist)} '.jpg' files.")
