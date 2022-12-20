@@ -7,7 +7,7 @@ JPG to PDF is a simple Python CLI Tool which merges all the images in a director
 ```shell
 Usage: main.py [OPTIONS] DIRPATH NAME
 
-  Merge every '.jpg' file in DIRPATH into a single PDF called NAME.
+  Merges all `.jpg` files contained within DIRPATH into a single PDF called NAME.
 
 Options:
   --help  Show this message and exit.
