@@ -61,9 +61,9 @@ def main(dirpath, name):
 
     fix_landscape(imagelist)
 
-    print(f"[i] Generating PDF...")
+    print("[i] Generating PDF...")
     make_pdf(dirpath, name, imagelist)
-    print(f"[✓] Done!")
+    print("[✓] Done!")
 
 
 if __name__ == "__main__":
